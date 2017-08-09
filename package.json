@@ -4,17 +4,11 @@
   "cordova": {
     "id": "cordova-plugin-opentokjs",
     "platforms": [
-      "ios",
-      "android",
-      "browser"
+      "ios"
     ]
   },
   "description": "OpenTok lets you weave real time communications with live video and audio into your application",
   "engines": [
-    {
-      "name": "cordova-android",
-      "version": ">=4.0.0"
-    },
     {
       "name": "cordova-ios",
       "version": ">=3.8.0"
@@ -32,16 +26,13 @@
     "cordova-android",
     "rtc"
   ],
-  "homepage": "https://github.com/aoberoi/cordova-plugin-opentokjs",
+  "homepage": "https://github.com/Korreca/cordova-plugin-opentokjs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aoberoi/cordova-plugin-opentokjs.git"
+    "url": "https://github.com/Korreca/cordova-plugin-opentokjs.git"
   },
   "bugs": {
-    "url": "https://github.com/aoberoi/cordova-plugin-opentokjs/issues"
-  },
-  "peerDependencies": {
-    "cordova-plugin-crosswalk-webview": "^1.2.0"
+    "url": "https://github.com/Korreca/cordova-plugin-opentokjs/issues"
   },
   "devDependencies": {
     "browserify": "^10.2.4",
